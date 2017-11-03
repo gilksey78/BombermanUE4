@@ -1,0 +1,821 @@
+﻿Log file open, 11/03/17 13:31:21
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: Bomberman
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-85651584) SRandInit(-85651584).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.290357
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  -skipcompile
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.03-13.31.23:482][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.03-13.31.23:482][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.03-13.31.23:497][  0]LogInit: Computer: DESKTOP-U87J6JI
+[2017.11.03-13.31.23:497][  0]LogInit: User: gilke
+[2017.11.03-13.31.23:497][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.11.03-13.31.23:498][  0]LogInit: High frequency timer resolution =2.835940 MHz
+[2017.11.03-13.31.23:498][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.03-13.31.23:498][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.03-13.31.23:498][  0]LogMemory: Process Physical Memory: 279.00 MB used, 279.00 MB peak
+[2017.11.03-13.31.23:498][  0]LogMemory: Process Virtual Memory: 273.86 MB used, 273.86 MB peak
+[2017.11.03-13.31.23:498][  0]LogMemory: Physical Memory: 6573.25 MB used,  9708.39 MB free, 16281.64 MB total
+[2017.11.03-13.31.23:498][  0]LogMemory: Virtual Memory: 650.75 MB used,  9708.39 MB free, 134217728.00 MB total
+[2017.11.03-13.31.23:801][  0]LogInit: Using OS detected language (en-US).
+[2017.11.03-13.31.23:801][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.03-13.31.23:807][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.03-13.31.24:838][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.03-13.31.24:871][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2017.11.03-13.31.24:871][  0]LogD3D11RHI:       128/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.11.03-13.31.24:915][  0]LogD3D11RHI:    1. 'Radeon (TM) R7 M445' (Feature Level 11_0)
+[2017.11.03-13.31.24:915][  0]LogD3D11RHI:       4087/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2017.11.03-13.31.24:923][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.03-13.31.24:923][  0]LogD3D11RHI:       0/0/8140 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.03-13.31.24:923][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2017.11.03-13.31.24:934][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.03-13.31.24:935][  0]LogD3D11RHI:     GPU DeviceId: 0x6900 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.03-13.31.24:935][  0]LogWindows: EnumDisplayDevices:
+[2017.11.03-13.31.24:935][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2017.11.03-13.31.24:936][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.11.03-13.31.24:937][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2017.11.03-13.31.24:937][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.03-13.31.24:937][  0]LogD3D11RHI:     Adapter Name: Radeon (TM) R7 M445
+[2017.11.03-13.31.24:937][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.03-13.31.24:937][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.03-13.31.24:937][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.03-13.31.24:983][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.03-13.31.25:002][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.03-13.31.25:004][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Intermediate/Shaders/WorkingDirectory/7832/).
+[2017.11.03-13.31.25:004][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gilke/AppData/Local/Temp/UnrealShaderWorkingDir/72A60B8F4660DAE5613828949A677D29/'.
+[2017.11.03-13.31.25:004][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.03-13.31.26:231][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.03-13.31.26:314][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.03-13.31.26:408][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.03-13.31.26:502][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.03-13.31.26:608][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.03-13.31.26:701][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.03-13.31.26:809][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.03-13.31.26:898][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.03-13.31.27:005][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.03-13.31.27:107][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.03-13.31.27:209][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.03-13.31.27:295][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.03-13.31.27:385][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.03-13.31.27:472][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.03-13.31.27:559][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.03-13.31.27:740][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.03-13.31.27:740][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.03-13.31.27:827][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.03-13.31.27:975][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.03-13.31.28:027][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.03-13.31.28:106][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.03-13.31.28:194][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.03-13.31.28:278][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.03-13.31.28:358][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.03-13.31.28:359][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.03-13.31.29:259][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.03-13.31.29:397][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/gilke/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.03-13.31.29:397][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gilke/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.03-13.31.29:397][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.03-13.31.29:397][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.03-13.31.29:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.03-13.31.29:398][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.03-13.31.29:416][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.03-13.31.29:432][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gilke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.03-13.31.29:449][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.03-13.31.29:449][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.03-13.31.29:452][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.03-13.31.29:452][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.03-13.31.29:844][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
+[2017.11.03-13.31.30:082][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.03-13.31.30:329][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.03-13.31.30:830][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.03-13.31.30:913][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.03-13.31.30:913][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.03-13.31.30:913][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.03-13.31.30:914][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.03-13.31.30:914][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.03-13.31.31:459][  0]LogNetVersion: Bomberman , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1277510555)
+[2017.11.03-13.31.31:826][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.088994 seconds
+[2017.11.03-13.31.31:833][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.03-13.31.31:834][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.03-13.31.31:834][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.03-13.31.31:924][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.03-13.31.36:349][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.03-13.31.36:409][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.03-13.31.37:769][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.03-13.31.38:503][  0]SourceControl: Source control is disabled
+[2017.11.03-13.31.38:503][  0]SourceControl: Source control is disabled
+[2017.11.03-13.31.38:602][  0]SourceControl: Source control is disabled
+[2017.11.03-13.31.38:706][  0]SourceControl: Source control is disabled
+[2017.11.03-13.31.39:857][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.03-13.31.40:320][  0]LogOcInput: OculusInput pre-init called
+[2017.11.03-13.31.40:758][  0]LogEngine: Initializing Engine...
+[2017.11.03-13.31.40:763][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.03-13.31.41:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.03-13.31.41:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.03-13.31.41:337][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.03-13.31.41:350][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-13.31.41:439][  0]LogInit: FAudioDevice initialized.
+[2017.11.03-13.31.41:610][  0]LogDerivedDataCache: Saved boot cache 0.17s 93MB C:/Users/gilke/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.03-13.31.41:636][  0]LogInit: Texture streaming: Enabled
+[2017.11.03-13.31.41:842][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.03-13.31.41:842][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={DCD40533-4B7E-08BD-A4E8-63AD5E145000}
+[2017.11.03-13.31.42:220][  0]LogInit: Transaction tracking system initialized
+[2017.11.03-13.31.42:805][  0]BlueprintLog: New page: Editor Load
+[2017.11.03-13.31.44:511][  0]LocalizationService: Localization service is disabled
+[2017.11.03-13.31.45:510][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/PuzzleOverview'
+[2017.11.03-13.31.45:510][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/PuzzleOverview'
+[2017.11.03-13.31.45:510][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/PuzzleOverview.PuzzleOverview_C'
+[2017.11.03-13.31.45:511][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part1-Overview'
+[2017.11.03-13.31.45:511][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part1-Overview'
+[2017.11.03-13.31.45:511][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part1-Overview.Part1-Overview_C'
+[2017.11.03-13.31.45:511][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part2-BlockBlueprint'
+[2017.11.03-13.31.45:511][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part2-BlockBlueprint'
+[2017.11.03-13.31.45:512][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part2-BlockBlueprint.Part2-BlockBlueprint_C'
+[2017.11.03-13.31.45:512][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part2b-BlockBLueprintComponents'
+[2017.11.03-13.31.45:512][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part2b-BlockBLueprintComponents'
+[2017.11.03-13.31.45:512][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part2b-BlockBLueprintComponents.Part2b-BlockBLueprintComponents_C'
+[2017.11.03-13.31.45:513][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part3-GridBlueprint'
+[2017.11.03-13.31.45:513][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part3-GridBlueprint'
+[2017.11.03-13.31.45:513][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part3-GridBlueprint.Part3-GridBlueprint_C'
+[2017.11.03-13.31.45:514][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part4-GridBluepint2'
+[2017.11.03-13.31.45:515][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part4-GridBluepint2'
+[2017.11.03-13.31.45:515][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part4-GridBluepint2.Part4-GridBluepint2_C'
+[2017.11.03-13.31.45:515][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part5-GameMode'
+[2017.11.03-13.31.45:516][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part5-GameMode'
+[2017.11.03-13.31.45:516][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part5-GameMode.Part5-GameMode_C'
+[2017.11.03-13.31.45:516][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part6-Controller'
+[2017.11.03-13.31.45:516][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part6-Controller'
+[2017.11.03-13.31.45:519][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part6-Controller.Part6-Controller_C'
+[2017.11.03-13.31.45:520][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part7-LevelBlueprint'
+[2017.11.03-13.31.45:520][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part7-LevelBlueprint'
+[2017.11.03-13.31.45:521][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part7-LevelBlueprint.Part7-LevelBlueprint_C'
+[2017.11.03-13.31.45:521][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part8-EverythingElse'
+[2017.11.03-13.31.45:522][  0]LogLinker: Warning: Can't find file '/Game/PuzzleBP/Tutorial/Part8-EverythingElse'
+[2017.11.03-13.31.45:522][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/Tutorial/Part8-EverythingElse.Part8-EverythingElse_C'
+[2017.11.03-13.31.45:888][  0]LogConsoleResponse: Display: 
+[2017.11.03-13.31.46:210][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.03-13.31.46:210][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.03-13.31.46:210][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.03-13.31.47:022][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/GitHub/BombermanUE4/Bomberman/Content/' took 0.02s
+[2017.11.03-13.31.48:198][  0]SourceControl: Source control is disabled
+[2017.11.03-13.31.48:198][  0]Cmd: MAP LOAD FILE="../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.03-13.31.48:199][  0]LightingResults: New page: Lighting Build
+[2017.11.03-13.31.48:269][  0]MapCheck: New page: Map Check
+[2017.11.03-13.31.48:269][  0]LightingResults: New page: Lighting Build
+[2017.11.03-13.31.48:333][  0]LogAIModule: Creating AISystem for world Menu
+[2017.11.03-13.31.48:335][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.03-13.31.48:348][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.03-13.31.48:502][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 153.736ms to complete.
+[2017.11.03-13.31.48:502][  0]LogFileHelpers: Loading map 'Menu' took 0.304
+[2017.11.03-13.31.48:718][  0]LogCollectionManager: Loaded 0 collections in 0.002579 seconds
+[2017.11.03-13.31.48:867][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/GitHub/BombermanUE4/Bomberman/Saved/Collections/' took 0.01s
+[2017.11.03-13.31.48:867][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/GitHub/BombermanUE4/Bomberman/Content/Developers/gilke/Collections/' took 0.01s
+[2017.11.03-13.31.48:868][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev/GitHub/BombermanUE4/Bomberman/Content/Collections/' took 0.01s
+[2017.11.03-13.31.48:868][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.03-13.31.48:883][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2389 classes and 502 folders.
+[2017.11.03-13.31.49:005][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0065 seconds. Added 0 classes and 0 folders.
+[2017.11.03-13.31.49:088][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.11.03-13.31.49:178][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2017.11.03-13.31.49:268][  0]LogSlate: Took 0.001669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.03-13.31.49:272][  0]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.03-13.31.49:279][  0]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.03-13.31.49:402][  0]LogRenderer: Reallocating scene render targets to support 976x428 Format 10 NumSamples 1 (Frame:1).
+[2017.11.03-13.31.49:746][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
+[2017.11.03-13.31.49:747][  0]LogLoad: (Engine Initialization) Total time: 30.40 seconds
+[2017.11.03-13.31.49:748][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.03-13.31.49:748][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.03-13.31.49:748][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.03-13.31.49:771][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.03-13.31.49:789][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.03-13.31.49:816][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.03-13.31.49:855][  1]LogAssetRegistry: Asset discovery search completed in 20.0363 seconds
+[2017.11.03-13.31.49:861][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.03-13.31.49:862][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000771 seconds (updated 0 objects)
+[2017.11.03-13.33.03:323][337]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.03-13.33.03:881][337]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0028 seconds. Added 113 classes and 0 folders.
+[2017.11.03-13.33.04:799][337]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.03-13.33.04:933][337]LogSlate: Took 0.000374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.03-13.33.20:302][  0]LogSlate: Took 0.000398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.03-13.33.30:700][482]LogSlate: Took 0.000711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.03-13.34.38:758][451]BlueprintLog: New page: Compile BombermanPlayer
+[2017.11.03-13.34.41:040][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomberman/Blueprints/BombermanPlayer" FILE="../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BombermanPlayer.uasset" SILENT=true
+[2017.11.03-13.34.41:326][495]LogSavePackage: Save=163.15ms
+[2017.11.03-13.34.41:326][495]LogSavePackage: Moving '../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Saved/BombermanPlayerE82DBC554B726848C4F2AD844ED63ABD.tmp' to '../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BombermanPlayer.uasset'
+[2017.11.03-13.34.41:347][495]LogSavePackage: Display: Finished SavePackage ../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BombermanPlayer.uasset
+[2017.11.03-13.35.41:693][542]BlueprintLog: New page: Compile BombermanPlayer
+[2017.11.03-13.35.43:676][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomberman/Blueprints/BombermanPlayer" FILE="../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BombermanPlayer.uasset" SILENT=true
+[2017.11.03-13.35.44:104][571]LogSavePackage: Save=266.14ms
+[2017.11.03-13.35.44:105][571]LogSavePackage: Moving '../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Saved/BombermanPlayer90AD379642CC0CFCD4CC15BD4180ED08.tmp' to '../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BombermanPlayer.uasset'
+[2017.11.03-13.35.44:125][571]LogSavePackage: Display: Finished SavePackage ../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BombermanPlayer.uasset
+[2017.11.03-13.37.15:734][151]BlueprintLog: New page: Compile BP_Crate
+[2017.11.03-13.37.16:681][151]LogBlueprintUserMessages: [BP_Crate_C_0] 0.137364
+[2017.11.03-13.37.17:625][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bomberman/Blueprints/BP_Crate" FILE="../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BP_Crate.uasset" SILENT=true
+[2017.11.03-13.37.17:850][181]LogSavePackage: Save=129.91ms
+[2017.11.03-13.37.17:851][181]LogSavePackage: Moving '../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Saved/BP_CrateC3EFB30A47C04EECF1DAF0B80C5C8A8D.tmp' to '../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BP_Crate.uasset'
+[2017.11.03-13.37.17:866][181]LogSavePackage: Display: Finished SavePackage ../../../../../../GameDev/GitHub/BombermanUE4/Bomberman/Content/Bomberman/Blueprints/BP_Crate.uasset
+[2017.11.03-13.37.19:887][255]LogBlueprintUserMessages: [BP_Crate_C_1] 0.288034
+[2017.11.03-13.37.21:322][320]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.03-13.37.21:422][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Bomberman/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu'
+[2017.11.03-13.37.21:423][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-13.37.21:424][320]PIE: New page: PIE session: Menu (3 Nov 2017 13:37:21)
+[2017.11.03-13.37.21:424][320]LogPlayLevel: Creating play world package: /Game/Bomberman/Maps/UEDPIE_0_Menu
+[2017.11.03-13.37.21:426][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002097s)
+[2017.11.03-13.37.21:429][320]LogAIModule: Creating AISystem for world Menu
+[2017.11.03-13.37.21:429][320]LogPlayLevel: PIE: World Init took: (0.002620s)
+[2017.11.03-13.37.21:430][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bomberman/Maps/Menu.Menu to /Game/Bomberman/Maps/UEDPIE_0_Menu.Menu (0.006099s)
+[2017.11.03-13.37.21:492][320]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-13.37.21:613][320]LogInit: FAudioDevice initialized.
+[2017.11.03-13.37.21:694][320]LogLoad: Game class is 'MenuGameMode_C'
+[2017.11.03-13.37.21:700][320]LogWorld: Bringing World /Game/Bomberman/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2017.11.03-13.37.21
+[2017.11.03-13.37.21:702][320]LogWorld: Bringing up level for play took: 0.005676
+[2017.11.03-13.37.21:704][320]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.03-13.37.21:911][320]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0042 seconds. Added 11 classes and 0 folders.
+[2017.11.03-13.37.21:912][320]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-13.37.21:912][320]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-13.37.21:912][320]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.03-13.37.21:915][320]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.03-13.37.21:915][320]PIE: Play in editor start time for /Game/Bomberman/Maps/UEDPIE_0_Menu 0.824
+[2017.11.03-13.37.21:916][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Bomberman/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu'
+[2017.11.03-13.37.25:176][489]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Bomberman/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu'
+[2017.11.03-13.37.25:236][489]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Bomberman/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu'
+[2017.11.03-13.37.29:354][667]LogRenderer: Reallocating scene render targets to support 976x432 Format 10 NumSamples 1 (Frame:9537).
+[2017.11.03-13.37.29:426][668]LogRenderer: Reallocating scene render targets to support 976x436 Format 10 NumSamples 1 (Frame:9539).
+[2017.11.03-13.37.29:498][669]LogRenderer: Reallocating scene render targets to support 976x444 Format 10 NumSamples 1 (Frame:9541).
+[2017.11.03-13.37.29:668][672]LogRenderer: Reallocating scene render targets to support 976x448 Format 10 NumSamples 1 (Frame:9545).
+[2017.11.03-13.37.29:803][673]LogRenderer: Reallocating scene render targets to support 976x456 Format 10 NumSamples 1 (Frame:9547).
+[2017.11.03-13.37.29:954][674]LogRenderer: Reallocating scene render targets to support 976x460 Format 10 NumSamples 1 (Frame:9549).
+[2017.11.03-13.37.32:979][821]LogRenderer: Reallocating scene render targets to support 980x460 Format 10 NumSamples 1 (Frame:9698).
+[2017.11.03-13.37.36:689][973]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.03-13.37.36:735][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Bomberman/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu'
+[2017.11.03-13.37.36:736][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.03-13.37.36:736][973]PIE: New page: PIE session: Menu (3 Nov 2017 13:37:36)
+[2017.11.03-13.37.36:739][973]LogPlayLevel: Creating play world package: /Game/Bomberman/Maps/UEDPIE_0_Menu
+[2017.11.03-13.37.36:742][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002190s)
+[2017.11.03-13.37.36:743][973]LogAIModule: Creating AISystem for world Menu
+[2017.11.03-13.37.36:755][973]LogPlayLevel: PIE: World Init took: (0.013502s)
+[2017.11.03-13.37.36:756][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Bomberman/Maps/Menu.Menu to /Game/Bomberman/Maps/UEDPIE_0_Menu.Menu (0.017026s)
+[2017.11.03-13.37.36:824][973]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.03-13.37.36:978][973]LogInit: FAudioDevice initialized.
+[2017.11.03-13.37.37:041][973]LogLoad: Game class is 'MenuGameMode_C'
+[2017.11.03-13.37.37:043][973]LogWorld: Bringing World /Game/Bomberman/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2017.11.03-13.37.37
+[2017.11.03-13.37.37:044][973]LogWorld: Bringing up level for play took: 0.002083
+[2017.11.03-13.37.37:046][973]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2017.11.03-13.37.37:048][973]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-13.37.37:049][973]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.11.03-13.37.37:049][973]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.11.03-13.37.37:052][973]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.11.03-13.37.37:053][973]PIE: Play in editor start time for /Game/Bomberman/Maps/UEDPIE_0_Menu -0.038
+[2017.11.03-13.37.37:053][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Bomberman/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu'
+[2017.11.03-13.37.39:678][107]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.11.03-13.37.39:678][107]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.11.03-13.37.39:681][107]LogNet: Browse: /Game/Bomberman/Maps/Game
+[2017.11.03-13.37.39:683][107]LogLoad: LoadMap: /Game/Bomberman/Maps/Game
+[2017.11.03-13.37.39:742][107]Cmd: MEM
+[2017.11.03-13.37.39:784][107]LogMemory: Platform Memory Stats for Windows
+[2017.11.03-13.37.39:784][107]LogMemory: Process Physical Memory: 1472.91 MB used, 1549.96 MB peak
+[2017.11.03-13.37.39:785][107]LogMemory: Process Virtual Memory: 2149.70 MB used, 2504.39 MB peak
+[2017.11.03-13.37.39:785][107]LogMemory: Physical Memory: 8033.09 MB used,  8248.55 MB free, 16281.64 MB total
+[2017.11.03-13.37.39:785][107]LogMemory: Virtual Memory: 3134.64 MB used,  8248.55 MB free, 134217728.00 MB total
+[2017.11.03-13.37.39:785][107]LogMemory: 
+[2017.11.03-13.37.39:785][107]Allocator Stats for TBB: (not implemented)
+[2017.11.03-13.37.41:090][107]LogAIModule: Creating AISystem for world Game
+[2017.11.03-13.37.41:091][107]LogLoad: Game class is 'BomberManGameMode_C'
+[2017.11.03-13.37.41:208][107]LogWorld: Bringing World /Game/Bomberman/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2017.11.03-13.37.41
+[2017.11.03-13.37.41:213][107]LogWorld: Bringing up level for play took: 0.120434
+[2017.11.03-13.37.41:222][107]LogLoad: Took 1.539084 seconds to LoadMap(/Game/Bomberman/Maps/Game)
+[2017.11.03-13.37.46:079][317]LogBlueprintUserMessages: [BP_Bomb_C_0] a
+[2017.11.03-13.37.46:081][317]LogBlueprintUserMessages: [BP_Bomb_C_0] bomb hit
+[2017.11.03-13.37.46:081][317]LogBlueprintUserMessages: [BP_Bomb_C_0] b
+[2017.11.03-13.37.46:081][317]LogBlueprintUserMessages: [BP_Bomb_C_0] bomb hit
+[2017.11.03-13.37.46:082][317]LogBlueprintUserMessages: [BP_Bomb_C_0] c
+[2017.11.03-13.37.46:082][317]LogBlueprintUserMessages: [BP_Bomb_C_0] no hit
+[2017.11.03-13.37.46:082][317]LogBlueprintUserMessages: [BP_Bomb_C_0] d
+[2017.11.03-13.37.46:082][317]LogBlueprintUserMessages: [BP_Bomb_C_0] bomb hit
+[2017.11.03-13.37.46:082][317]LogBlueprintUserMessages: [BP_Bomb_C_0] hit crate
+[2017.11.03-13.37.46:083][317]LogBlueprintUserMessages: [BP_Crate47] 0.514267
+[2017.11.03-13.37.50:790][513]LogBlueprintUserMessages: [BP_Bomb_C_1] a
+[2017.11.03-13.37.50:792][513]LogBlueprintUserMessages: [BP_Bomb_C_1] bomb hit
+[2017.11.03-13.37.50:792][513]LogBlueprintUserMessages: [BP_Bomb_C_1] hit crate
+[2017.11.03-13.37.50:793][513]LogBlueprintUserMessages: [BP_Crate48] 0.501206
+[2017.11.03-13.37.50:793][513]LogBlueprintUserMessages: [BP_Bomb_C_1] b
+[2017.11.03-13.37.50:794][513]LogBlueprintUserMessages: [BP_Bomb_C_1] bomb hit
+[2017.11.03-13.37.50:795][513]LogBlueprintUserMessages: [BP_Bomb_C_1] c
+[2017.11.03-13.37.50:795][513]LogBlueprintUserMessages: [BP_Bomb_C_1] no hit
+[2017.11.03-13.37.50:796][513]LogBlueprintUserMessages: [BP_Bomb_C_1] d
+[2017.11.03-13.37.50:799][513]LogBlueprintUserMessages: [BP_Bomb_C_1] bomb hit
+[2017.11.03-13.37.50:800][513]LogBlueprintUserMessages: [BP_Bomb_C_1] hit crate
+[2017.11.03-13.37.50:800][513]LogBlueprintUserMessages: [BP_Crate56] 0.132084
+[2017.11.03-13.37.50:801][513]LogBlueprintUserMessages: [BP_Crate56] 0.983825
+[2017.11.03-13.37.50:801][513]LogBlueprintUserMessages: [BP_Crate56] spawning multiple bomb upgrade
+[2017.11.03-13.37.57:711][813]LogBlueprintUserMessages: [BP_Bomb_C_2] a
+[2017.11.03-13.37.57:712][813]LogBlueprintUserMessages: [BP_Bomb_C_2] bomb hit
+[2017.11.03-13.37.57:712][813]LogBlueprintUserMessages: [BP_Bomb_C_2] hit crate
+[2017.11.03-13.37.57:712][813]LogBlueprintUserMessages: [BP_Crate49] 0.587664
+[2017.11.03-13.37.57:712][813]LogBlueprintUserMessages: [BP_Crate49] 0.0965
+[2017.11.03-13.37.57:713][813]LogBlueprintUserMessages: [BP_Crate49] spawning bomb radius upgrade
+[2017.11.03-13.37.57:714][813]LogBlueprintUserMessages: [BP_Bomb_C_2] b
+[2017.11.03-13.37.57:715][813]LogBlueprintUserMessages: [BP_Bomb_C_2] no hit
+[2017.11.03-13.37.57:715][813]LogBlueprintUserMessages: [BP_Bomb_C_2] c
+[2017.11.03-13.37.57:715][813]LogBlueprintUserMessages: [BP_Bomb_C_2] bomb hit
+[2017.11.03-13.37.57:715][813]LogBlueprintUserMessages: [BP_Bomb_C_2] hit crate
+[2017.11.03-13.37.57:716][813]LogBlueprintUserMessages: [BP_Crate44] 0.305582
+[2017.11.03-13.37.57:716][813]LogBlueprintUserMessages: [BP_Bomb_C_2] d
+[2017.11.03-13.37.57:716][813]LogBlueprintUserMessages: [BP_Bomb_C_2] bomb hit
+[2017.11.03-13.37.57:717][813]LogBlueprintUserMessages: [BP_Bomb_C_2] hit crate
+[2017.11.03-13.37.57:717][813]LogBlueprintUserMessages: [BP_Crate58] 0.607776
+[2017.11.03-13.37.57:717][813]LogBlueprintUserMessages: [BP_Crate58] 0.408826
+[2017.11.03-13.37.57:717][813]LogBlueprintUserMessages: [BP_Crate58] spawning remote upgrade
+[2017.11.03-13.37.58:732][855]LogBlueprintUserMessages: [BP_Bomb_C_3] a
+[2017.11.03-13.37.58:732][855]LogBlueprintUserMessages: [BP_Bomb_C_3] no hit
+[2017.11.03-13.37.58:733][855]LogBlueprintUserMessages: [BP_Bomb_C_3] b
+[2017.11.03-13.37.58:733][855]LogBlueprintUserMessages: [BP_Bomb_C_3] no hit
+[2017.11.03-13.37.58:734][855]LogBlueprintUserMessages: [BP_Bomb_C_3] c
+[2017.11.03-13.37.58:734][855]LogBlueprintUserMessages: [BP_Bomb_C_3] bomb hit
+[2017.11.03-13.37.58:734][855]LogBlueprintUserMessages: [BP_Bomb_C_3] hit crate
+[2017.11.03-13.37.58:734][855]LogBlueprintUserMessages: [BP_Crate43] 0.11066
+[2017.11.03-13.37.58:734][855]LogBlueprintUserMessages: [BP_Crate43] 0.779748
+[2017.11.03-13.37.58:734][855]LogBlueprintUserMessages: [BP_Crate43] spawning remote upgrade
+[2017.11.03-13.37.58:736][855]LogBlueprintUserMessages: [BP_Bomb_C_3] d
+[2017.11.03-13.37.58:738][855]LogBlueprintUserMessages: [BP_Bomb_C_3] bomb hit
+[2017.11.03-13.37.58:738][855]LogBlueprintUserMessages: [BP_Bomb_C_3] hit crate
+[2017.11.03-13.37.58:738][855]LogBlueprintUserMessages: [BP_Crate57] 0.163945
+[2017.11.03-13.38.07:971][263]LogBlueprintUserMessages: [BP_Bomb_C_4] a
+[2017.11.03-13.38.07:971][263]LogBlueprintUserMessages: [BP_Bomb_C_4] bomb hit
+[2017.11.03-13.38.07:971][263]LogBlueprintUserMessages: [BP_Bomb_C_4] b
+[2017.11.03-13.38.07:972][263]LogBlueprintUserMessages: [BP_Bomb_C_4] bomb hit
+[2017.11.03-13.38.07:973][263]LogBlueprintUserMessages: [BP_Bomb_C_4] c
+[2017.11.03-13.38.07:974][263]LogBlueprintUserMessages: [BP_Bomb_C_4] no hit
+[2017.11.03-13.38.07:976][263]LogBlueprintUserMessages: [BP_Bomb_C_4] d
+[2017.11.03-13.38.07:977][263]LogBlueprintUserMessages: [BP_Bomb_C_4] bomb hit
+[2017.11.03-13.38.07:978][263]LogBlueprintUserMessages: [BP_Bomb_C_4] hit crate
+[2017.11.03-13.38.07:978][263]LogBlueprintUserMessages: [BP_Crate62] 0.388012
+[2017.11.03-13.38.16:591][645]LogBlueprintUserMessages: [BP_Bomb_C_5] a
+[2017.11.03-13.38.16:592][645]LogBlueprintUserMessages: [BP_Bomb_C_5] bomb hit
+[2017.11.03-13.38.16:592][645]LogBlueprintUserMessages: [BP_Bomb_C_5] hit crate
+[2017.11.03-13.38.16:592][645]LogBlueprintUserMessages: [BP_Crate50] 0.510849
+[2017.11.03-13.38.16:592][645]LogBlueprintUserMessages: [BP_Crate50] 0.122806
+[2017.11.03-13.38.16:592][645]LogBlueprintUserMessages: [BP_Crate50] spawning bomb radius upgrade
+[2017.11.03-13.38.16:594][645]LogBlueprintUserMessages: [BP_Bomb_C_5] b
+[2017.11.03-13.38.16:594][645]LogBlueprintUserMessages: [BP_Bomb_C_5] no hit
+[2017.11.03-13.38.16:595][645]LogBlueprintUserMessages: [BP_Bomb_C_5] c
+[2017.11.03-13.38.16:595][645]LogBlueprintUserMessages: [BP_Bomb_C_5] bomb hit
+[2017.11.03-13.38.16:595][645]LogBlueprintUserMessages: [BP_Bomb_C_5] d
+[2017.11.03-13.38.16:595][645]LogBlueprintUserMessages: [BP_Bomb_C_5] bomb hit
+[2017.11.03-13.38.20:368][812]LogBlueprintUserMessages: [BP_Bomb_C_6] a
+[2017.11.03-13.38.20:369][812]LogBlueprintUserMessages: [BP_Bomb_C_6] no hit
+[2017.11.03-13.38.20:370][812]LogBlueprintUserMessages: [BP_Bomb_C_6] b
+[2017.11.03-13.38.20:370][812]LogBlueprintUserMessages: [BP_Bomb_C_6] bomb hit
+[2017.11.03-13.38.20:371][812]LogBlueprintUserMessages: [BP_Bomb_C_6] c
+[2017.11.03-13.38.20:371][812]LogBlueprintUserMessages: [BP_Bomb_C_6] no hit
+[2017.11.03-13.38.20:372][812]LogBlueprintUserMessages: [BP_Bomb_C_6] d
+[2017.11.03-13.38.20:373][812]LogBlueprintUserMessages: [BP_Bomb_C_6] no hit
+[2017.11.03-13.38.24:872][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] a
+[2017.11.03-13.38.24:873][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] bomb hit
+[2017.11.03-13.38.24:874][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] hit crate
+[2017.11.03-13.38.24:875][  9]LogBlueprintUserMessages: [BP_Crate42] 0.046876
+[2017.11.03-13.38.24:875][  9]LogBlueprintUserMessages: [BP_Crate42] 0.779504
+[2017.11.03-13.38.24:875][  9]LogBlueprintUserMessages: [BP_Crate42] spawning multiple bomb upgrade
+[2017.11.03-13.38.24:879][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] b
+[2017.11.03-13.38.24:879][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] no hit
+[2017.11.03-13.38.24:880][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] c
+[2017.11.03-13.38.24:880][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] bomb hit
+[2017.11.03-13.38.24:881][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] d
+[2017.11.03-13.38.24:881][  9]LogBlueprintUserMessages: [BP_Bomb_C_7] bomb hit
+[2017.11.03-13.38.29:596][217]LogBlueprintUserMessages: [BP_Bomb_C_8] a
+[2017.11.03-13.38.29:597][217]LogBlueprintUserMessages: [BP_Bomb_C_8] no hit
+[2017.11.03-13.38.29:597][217]LogBlueprintUserMessages: [BP_Bomb_C_8] b
+[2017.11.03-13.38.29:598][217]LogBlueprintUserMessages: [BP_Bomb_C_8] no hit
+[2017.11.03-13.38.29:599][217]LogBlueprintUserMessages: [BP_Bomb_C_8] c
+[2017.11.03-13.38.29:600][217]LogBlueprintUserMessages: [BP_Bomb_C_8] bomb hit
+[2017.11.03-13.38.29:602][217]LogBlueprintUserMessages: [BP_Bomb_C_8] d
+[2017.11.03-13.38.29:604][217]LogBlueprintUserMessages: [BP_Bomb_C_8] bomb hit
+[2017.11.03-13.38.36:755][539]LogBlueprintUserMessages: [BP_Bomb_C_9] a
+[2017.11.03-13.38.36:756][539]LogBlueprintUserMessages: [BP_Bomb_C_9] bomb hit
+[2017.11.03-13.38.36:756][539]LogBlueprintUserMessages: [BP_Bomb_C_9] hit crate
+[2017.11.03-13.38.36:757][539]LogBlueprintUserMessages: [BP_Crate41] 0.441237
+[2017.11.03-13.38.36:757][539]LogBlueprintUserMessages: [BP_Bomb_C_9] b
+[2017.11.03-13.38.36:758][539]LogBlueprintUserMessages: [BP_Bomb_C_9] no hit
+[2017.11.03-13.38.36:758][539]LogBlueprintUserMessages: [BP_Bomb_C_9] c
+[2017.11.03-13.38.36:758][539]LogBlueprintUserMessages: [BP_Bomb_C_9] bomb hit
+[2017.11.03-13.38.36:759][539]LogBlueprintUserMessages: [BP_Bomb_C_9] d
+[2017.11.03-13.38.36:759][539]LogBlueprintUserMessages: [BP_Bomb_C_9] no hit
+[2017.11.03-13.38.41:388][748]LogBlueprintUserMessages: [BP_Bomb_C_10] a
+[2017.11.03-13.38.41:389][748]LogBlueprintUserMessages: [BP_Bomb_C_10] no hit
+[2017.11.03-13.38.41:390][748]LogBlueprintUserMessages: [BP_Bomb_C_10] b
+[2017.11.03-13.38.41:390][748]LogBlueprintUserMessages: [BP_Bomb_C_10] no hit
+[2017.11.03-13.38.41:391][748]LogBlueprintUserMessages: [BP_Bomb_C_10] c
+[2017.11.03-13.38.41:391][748]LogBlueprintUserMessages: [BP_Bomb_C_10] no hit
+[2017.11.03-13.38.41:391][748]LogBlueprintUserMessages: [BP_Bomb_C_10] d
+[2017.11.03-13.38.41:391][748]LogBlueprintUserMessages: [BP_Bomb_C_10] no hit
+[2017.11.03-13.38.44:892][901]LogBlueprintUserMessages: [BP_Bomb_C_11] a
+[2017.11.03-13.38.44:899][901]LogBlueprintUserMessages: [BP_Bomb_C_11] bomb hit
+[2017.11.03-13.38.44:900][901]LogBlueprintUserMessages: [BP_Bomb_C_11] hit crate
+[2017.11.03-13.38.44:900][901]LogBlueprintUserMessages: [BP_Crate51] 0.016511
+[2017.11.03-13.38.44:900][901]LogBlueprintUserMessages: [BP_Bomb_C_11] b
+[2017.11.03-13.38.44:902][901]LogBlueprintUserMessages: [BP_Bomb_C_11] no hit
+[2017.11.03-13.38.44:903][901]LogBlueprintUserMessages: [BP_Bomb_C_11] c
+[2017.11.03-13.38.44:903][901]LogBlueprintUserMessages: [BP_Bomb_C_11] bomb hit
+[2017.11.03-13.38.44:903][901]LogBlueprintUserMessages: [BP_Bomb_C_11] hit crate
+[2017.11.03-13.38.44:903][901]LogBlueprintUserMessages: [BP_Crate45] 0.375561
+[2017.11.03-13.38.44:904][901]LogBlueprintUserMessages: [BP_Bomb_C_11] d
+[2017.11.03-13.38.44:905][901]LogBlueprintUserMessages: [BP_Bomb_C_11] bomb hit
+[2017.11.03-13.38.44:905][901]LogBlueprintUserMessages: [BP_Bomb_C_11] hit crate
+[2017.11.03-13.38.44:906][901]LogBlueprintUserMessages: [BP_Crate59] 0.961272
+[2017.11.03-13.38.44:906][901]LogBlueprintUserMessages: [BP_Crate59] 0.079775
+[2017.11.03-13.38.44:906][901]LogBlueprintUserMessages: [BP_Crate59] spawning bomb radius upgrade
+[2017.11.03-13.38.46:121][952]LogBlueprintUserMessages: [BP_Bomb_C_12] a
+[2017.11.03-13.38.46:121][952]LogBlueprintUserMessages: [BP_Bomb_C_12] no hit
+[2017.11.03-13.38.46:122][952]LogBlueprintUserMessages: [BP_Bomb_C_12] b
+[2017.11.03-13.38.46:122][952]LogBlueprintUserMessages: [BP_Bomb_C_12] no hit
+[2017.11.03-13.38.46:122][952]LogBlueprintUserMessages: [BP_Bomb_C_12] c
+[2017.11.03-13.38.46:122][952]LogBlueprintUserMessages: [BP_Bomb_C_12] bomb hit
+[2017.11.03-13.38.46:122][952]LogBlueprintUserMessages: [BP_Bomb_C_12] d
+[2017.11.03-13.38.46:122][952]LogBlueprintUserMessages: [BP_Bomb_C_12] bomb hit
+[2017.11.03-13.38.53:441][287]LogBlueprintUserMessages: [BP_Bomb_C_13] a
+[2017.11.03-13.38.53:441][287]LogBlueprintUserMessages: [BP_Bomb_C_13] bomb hit
+[2017.11.03-13.38.53:442][287]LogBlueprintUserMessages: [BP_Bomb_C_13] hit crate
+[2017.11.03-13.38.53:442][287]LogBlueprintUserMessages: [BP_Crate82] 0.953612
+[2017.11.03-13.38.53:442][287]LogBlueprintUserMessages: [BP_Bomb_C_13] b
+[2017.11.03-13.38.53:442][287]LogBlueprintUserMessages: [BP_Bomb_C_13] no hit
+[2017.11.03-13.38.53:443][287]LogBlueprintUserMessages: [BP_Bomb_C_13] c
+[2017.11.03-13.38.53:443][287]LogBlueprintUserMessages: [BP_Bomb_C_13] bomb hit
+[2017.11.03-13.38.53:443][287]LogBlueprintUserMessages: [BP_Bomb_C_13] d
+[2017.11.03-13.38.53:443][287]LogBlueprintUserMessages: [BP_Bomb_C_13] bomb hit
+[2017.11.03-13.38.56:823][434]LogBlueprintUserMessages: [BP_Bomb_C_14] a
+[2017.11.03-13.38.56:823][434]LogBlueprintUserMessages: [BP_Bomb_C_14] bomb hit
+[2017.11.03-13.38.56:824][434]LogBlueprintUserMessages: [BP_Bomb_C_14] hit crate
+[2017.11.03-13.38.56:824][434]LogBlueprintUserMessages: [BP_Crate52] 0.652303
+[2017.11.03-13.38.56:825][434]LogBlueprintUserMessages: [BP_Bomb_C_14] b
+[2017.11.03-13.38.56:825][434]LogBlueprintUserMessages: [BP_Bomb_C_14] no hit
+[2017.11.03-13.38.56:825][434]LogBlueprintUserMessages: [BP_Bomb_C_14] c
+[2017.11.03-13.38.56:826][434]LogBlueprintUserMessages: [BP_Bomb_C_14] bomb hit
+[2017.11.03-13.38.56:828][434]LogBlueprintUserMessages: [BP_Bomb_C_14] d
+[2017.11.03-13.38.56:829][434]LogBlueprintUserMessages: [BP_Bomb_C_14] bomb hit
+[2017.11.03-13.39.00:514][601]LogBlueprintUserMessages: [BP_Bomb_C_15] a
+[2017.11.03-13.39.00:515][601]LogBlueprintUserMessages: [BP_Bomb_C_15] bomb hit
+[2017.11.03-13.39.00:516][601]LogBlueprintUserMessages: [BP_Bomb_C_15] hit crate
+[2017.11.03-13.39.00:518][601]LogBlueprintUserMessages: [BP_Crate81] 0.519639
+[2017.11.03-13.39.00:518][601]LogBlueprintUserMessages: [BP_Bomb_C_15] b
+[2017.11.03-13.39.00:518][601]LogBlueprintUserMessages: [BP_Bomb_C_15] no hit
+[2017.11.03-13.39.00:519][601]LogBlueprintUserMessages: [BP_Bomb_C_15] c
+[2017.11.03-13.39.00:520][601]LogBlueprintUserMessages: [BP_Bomb_C_15] bomb hit
+[2017.11.03-13.39.00:520][601]LogBlueprintUserMessages: [BP_Bomb_C_15] hit crate
+[2017.11.03-13.39.00:520][601]LogBlueprintUserMessages: [BP_Crate70] 0.435652
+[2017.11.03-13.39.00:520][601]LogBlueprintUserMessages: [BP_Crate70] 0.368145
+[2017.11.03-13.39.00:520][601]LogBlueprintUserMessages: [BP_Crate70] spawning bomb radius upgrade
+[2017.11.03-13.39.00:522][601]LogBlueprintUserMessages: [BP_Bomb_C_15] d
+[2017.11.03-13.39.00:523][601]LogBlueprintUserMessages: [BP_Bomb_C_15] bomb hit
+[2017.11.03-13.39.00:523][601]LogBlueprintUserMessages: [BP_Bomb_C_15] hit crate
+[2017.11.03-13.39.00:523][601]LogBlueprintUserMessages: [BP_Crate25] 0.523423
+[2017.11.03-13.39.03:961][756]LogBlueprintUserMessages: [BP_Bomb_C_16] a
+[2017.11.03-13.39.03:961][756]LogBlueprintUserMessages: [BP_Bomb_C_16] bomb hit
+[2017.11.03-13.39.03:961][756]LogBlueprintUserMessages: [BP_Bomb_C_16] b
+[2017.11.03-13.39.03:961][756]LogBlueprintUserMessages: [BP_Bomb_C_16] bomb hit
+[2017.11.03-13.39.03:962][756]LogBlueprintUserMessages: [BP_Bomb_C_16] c
+[2017.11.03-13.39.03:962][756]LogBlueprintUserMessages: [BP_Bomb_C_16] bomb hit
+[2017.11.03-13.39.03:962][756]LogBlueprintUserMessages: [BP_Bomb_C_16] hit crate
+[2017.11.03-13.39.03:962][756]LogBlueprintUserMessages: [BP_Crate38] 0.759239
+[2017.11.03-13.39.03:963][756]LogBlueprintUserMessages: [BP_Crate38] 0.770562
+[2017.11.03-13.39.03:963][756]LogBlueprintUserMessages: [BP_Crate38] spawning speed pickup upgrade
+[2017.11.03-13.39.03:966][756]LogBlueprintUserMessages: [BP_Bomb_C_16] d
+[2017.11.03-13.39.03:966][756]LogBlueprintUserMessages: [BP_Bomb_C_16] no hit
+[2017.11.03-13.39.08:623][968]LogBlueprintUserMessages: [BP_Bomb_C_17] a
+[2017.11.03-13.39.08:623][968]LogBlueprintUserMessages: [BP_Bomb_C_17] bomb hit
+[2017.11.03-13.39.08:623][968]LogBlueprintUserMessages: [BP_Bomb_C_17] b
+[2017.11.03-13.39.08:624][968]LogBlueprintUserMessages: [BP_Bomb_C_17] bomb hit
+[2017.11.03-13.39.08:624][968]LogBlueprintUserMessages: [BP_Bomb_C_17] c
+[2017.11.03-13.39.08:624][968]LogBlueprintUserMessages: [BP_Bomb_C_17] bomb hit
+[2017.11.03-13.39.08:624][968]LogBlueprintUserMessages: [BP_Bomb_C_17] hit crate
+[2017.11.03-13.39.08:624][968]LogBlueprintUserMessages: [BP_Crate67] 0.803888
+[2017.11.03-13.39.08:624][968]LogBlueprintUserMessages: [BP_Crate67] 0.138066
+[2017.11.03-13.39.08:625][968]LogBlueprintUserMessages: [BP_Crate67] spawning multiple bomb upgrade
+[2017.11.03-13.39.08:627][968]LogBlueprintUserMessages: [BP_Bomb_C_17] d
+[2017.11.03-13.39.08:627][968]LogBlueprintUserMessages: [BP_Bomb_C_17] no hit
+[2017.11.03-13.39.16:931][362]LogBlueprintUserMessages: [BP_Bomb_C_18] a
+[2017.11.03-13.39.16:932][362]LogBlueprintUserMessages: [BP_Bomb_C_18] bomb hit
+[2017.11.03-13.39.16:932][362]LogBlueprintUserMessages: [BP_Bomb_C_18] hit crate
+[2017.11.03-13.39.16:932][362]LogBlueprintUserMessages: [BP_Crate66] 0.157018
+[2017.11.03-13.39.16:933][362]LogBlueprintUserMessages: [BP_Bomb_C_18] b
+[2017.11.03-13.39.16:933][362]LogBlueprintUserMessages: [BP_Bomb_C_18] no hit
+[2017.11.03-13.39.16:933][362]LogBlueprintUserMessages: [BP_Bomb_C_18] c
+[2017.11.03-13.39.16:933][362]LogBlueprintUserMessages: [BP_Bomb_C_18] bomb hit
+[2017.11.03-13.39.16:933][362]LogBlueprintUserMessages: [BP_Bomb_C_18] hit crate
+[2017.11.03-13.39.16:934][362]LogBlueprintUserMessages: [BP_Crate60] 0.468245
+[2017.11.03-13.39.16:934][362]LogBlueprintUserMessages: [BP_Bomb_C_18] d
+[2017.11.03-13.39.16:934][362]LogBlueprintUserMessages: [BP_Bomb_C_18] no hit
+[2017.11.03-13.39.17:626][392]LogBlueprintUserMessages: [BP_Bomb_C_19] a
+[2017.11.03-13.39.17:628][392]LogBlueprintUserMessages: [BP_Bomb_C_19] no hit
+[2017.11.03-13.39.17:629][392]LogBlueprintUserMessages: [BP_Bomb_C_19] b
+[2017.11.03-13.39.17:629][392]LogBlueprintUserMessages: [BP_Bomb_C_19] no hit
+[2017.11.03-13.39.17:630][392]LogBlueprintUserMessages: [BP_Bomb_C_19] c
+[2017.11.03-13.39.17:630][392]LogBlueprintUserMessages: [BP_Bomb_C_19] no hit
+[2017.11.03-13.39.17:630][392]LogBlueprintUserMessages: [BP_Bomb_C_19] d
+[2017.11.03-13.39.17:630][392]LogBlueprintUserMessages: [BP_Bomb_C_19] no hit
+[2017.11.03-13.39.20:532][519]LogBlueprintUserMessages: [BP_Bomb_C_20] a
+[2017.11.03-13.39.20:533][519]LogBlueprintUserMessages: [BP_Bomb_C_20] bomb hit
+[2017.11.03-13.39.20:533][519]LogBlueprintUserMessages: [BP_Bomb_C_20] b
+[2017.11.03-13.39.20:533][519]LogBlueprintUserMessages: [BP_Bomb_C_20] bomb hit
+[2017.11.03-13.39.20:534][519]LogBlueprintUserMessages: [BP_Bomb_C_20] c
+[2017.11.03-13.39.20:534][519]LogBlueprintUserMessages: [BP_Bomb_C_20] no hit
+[2017.11.03-13.39.20:534][519]LogBlueprintUserMessages: [BP_Bomb_C_20] d
+[2017.11.03-13.39.20:535][519]LogBlueprintUserMessages: [BP_Bomb_C_20] no hit
+[2017.11.03-13.39.21:401][557]LogBlueprintUserMessages: [BP_Bomb_C_21] a
+[2017.11.03-13.39.21:402][557]LogBlueprintUserMessages: [BP_Bomb_C_21] bomb hit
+[2017.11.03-13.39.21:404][557]LogBlueprintUserMessages: [BP_Bomb_C_21] b
+[2017.11.03-13.39.21:405][557]LogBlueprintUserMessages: [BP_Bomb_C_21] bomb hit
+[2017.11.03-13.39.21:407][557]LogBlueprintUserMessages: [BP_Bomb_C_21] c
+[2017.11.03-13.39.21:407][557]LogBlueprintUserMessages: [BP_Bomb_C_21] no hit
+[2017.11.03-13.39.21:408][557]LogBlueprintUserMessages: [BP_Bomb_C_21] d
+[2017.11.03-13.39.21:408][557]LogBlueprintUserMessages: [BP_Bomb_C_21] no hit
+[2017.11.03-13.39.23:002][630]LogBlueprintUserMessages: [BP_Bomb_C_22] a
+[2017.11.03-13.39.23:003][630]LogBlueprintUserMessages: [BP_Bomb_C_22] no hit
+[2017.11.03-13.39.23:004][630]LogBlueprintUserMessages: [BP_Bomb_C_22] b
+[2017.11.03-13.39.23:005][630]LogBlueprintUserMessages: [BP_Bomb_C_22] no hit
+[2017.11.03-13.39.23:005][630]LogBlueprintUserMessages: [BP_Bomb_C_22] c
+[2017.11.03-13.39.23:007][630]LogBlueprintUserMessages: [BP_Bomb_C_22] no hit
+[2017.11.03-13.39.23:010][630]LogBlueprintUserMessages: [BP_Bomb_C_22] d
+[2017.11.03-13.39.23:011][630]LogBlueprintUserMessages: [BP_Bomb_C_22] bomb hit
+[2017.11.03-13.39.23:012][630]LogBlueprintUserMessages: [BP_Bomb_C_22] hit crate
+[2017.11.03-13.39.23:013][630]LogBlueprintUserMessages: [BP_Crate26] 0.013611
+[2017.11.03-13.39.25:649][751]LogBlueprintUserMessages: [BP_Bomb_C_23] a
+[2017.11.03-13.39.25:649][751]LogBlueprintUserMessages: [BP_Bomb_C_23] bomb hit
+[2017.11.03-13.39.25:649][751]LogBlueprintUserMessages: [BP_Bomb_C_23] hit crate
+[2017.11.03-13.39.25:650][751]LogBlueprintUserMessages: [BP_Crate16] 0.446486
+[2017.11.03-13.39.25:651][751]LogBlueprintUserMessages: [BP_Crate16] 0.349773
+[2017.11.03-13.39.25:652][751]LogBlueprintUserMessages: [BP_Crate16] spawning speed pickup upgrade
+[2017.11.03-13.39.25:658][751]LogBlueprintUserMessages: [BP_Bomb_C_23] b
+[2017.11.03-13.39.25:659][751]LogBlueprintUserMessages: [BP_Bomb_C_23] bomb hit
+[2017.11.03-13.39.25:659][751]LogBlueprintUserMessages: [BP_Bomb_C_23] hit crate
+[2017.11.03-13.39.25:660][751]LogBlueprintUserMessages: [BP_Crate17] 0.546342
+[2017.11.03-13.39.25:660][751]LogBlueprintUserMessages: [BP_Bomb_C_23] c
+[2017.11.03-13.39.25:660][751]LogBlueprintUserMessages: [BP_Bomb_C_23] no hit
+[2017.11.03-13.39.25:661][751]LogBlueprintUserMessages: [BP_Bomb_C_23] d
+[2017.11.03-13.39.25:661][751]LogBlueprintUserMessages: [BP_Bomb_C_23] bomb hit
+[2017.11.03-13.39.25:661][751]LogBlueprintUserMessages: [BP_Bomb_C_23] hit crate
+[2017.11.03-13.39.25:661][751]LogBlueprintUserMessages: [BP_Crate12] 0.378521
+[2017.11.03-13.39.25:662][751]LogBlueprintUserMessages: [BP_Crate12] 0.126713
+[2017.11.03-13.39.25:662][751]LogBlueprintUserMessages: [BP_Crate12] spawning speed pickup upgrade
+[2017.11.03-13.39.29:055][907]LogBlueprintUserMessages: [BP_Bomb_C_24] a
+[2017.11.03-13.39.29:057][907]LogBlueprintUserMessages: [BP_Bomb_C_24] bomb hit
+[2017.11.03-13.39.29:058][907]LogBlueprintUserMessages: [BP_Bomb_C_24] hit crate
+[2017.11.03-13.39.29:058][907]LogBlueprintUserMessages: [BP_Crate80] 0.559954
+[2017.11.03-13.39.29:058][907]LogBlueprintUserMessages: [BP_Bomb_C_24] b
+[2017.11.03-13.39.29:059][907]LogBlueprintUserMessages: [BP_Bomb_C_24] no hit
+[2017.11.03-13.39.29:059][907]LogBlueprintUserMessages: [BP_Bomb_C_24] c
+[2017.11.03-13.39.29:059][907]LogBlueprintUserMessages: [BP_Bomb_C_24] bomb hit
+[2017.11.03-13.39.29:060][907]LogBlueprintUserMessages: [BP_Bomb_C_24] d
+[2017.11.03-13.39.29:060][907]LogBlueprintUserMessages: [BP_Bomb_C_24] bomb hit
+[2017.11.03-13.39.32:103][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] a
+[2017.11.03-13.39.32:106][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] bomb hit
+[2017.11.03-13.39.32:106][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] b
+[2017.11.03-13.39.32:106][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] bomb hit
+[2017.11.03-13.39.32:106][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] c
+[2017.11.03-13.39.32:107][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] no hit
+[2017.11.03-13.39.32:107][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] d
+[2017.11.03-13.39.32:108][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] bomb hit
+[2017.11.03-13.39.32:108][ 45]LogBlueprintUserMessages: [BP_Bomb_C_25] hit crate
+[2017.11.03-13.39.32:109][ 45]LogBlueprintUserMessages: [BP_Crate6] 0.14835
+[2017.11.03-13.39.36:772][264]LogBlueprintUserMessages: [BP_Bomb_C_26] a
+[2017.11.03-13.39.36:772][264]LogBlueprintUserMessages: [BP_Bomb_C_26] bomb hit
+[2017.11.03-13.39.36:772][264]LogBlueprintUserMessages: [BP_Bomb_C_26] hit crate
+[2017.11.03-13.39.36:773][264]LogBlueprintUserMessages: [BP_Crate53] 0.783044
+[2017.11.03-13.39.36:774][264]LogBlueprintUserMessages: [BP_Bomb_C_26] b
+[2017.11.03-13.39.36:775][264]LogBlueprintUserMessages: [BP_Bomb_C_26] no hit
+[2017.11.03-13.39.36:776][264]LogBlueprintUserMessages: [BP_Bomb_C_26] c
+[2017.11.03-13.39.36:776][264]LogBlueprintUserMessages: [BP_Bomb_C_26] bomb hit
+[2017.11.03-13.39.36:776][264]LogBlueprintUserMessages: [BP_Bomb_C_26] hit crate
+[2017.11.03-13.39.36:777][264]LogBlueprintUserMessages: [BP_Crate46] 0.994018
+[2017.11.03-13.39.36:777][264]LogBlueprintUserMessages: [BP_Bomb_C_26] d
+[2017.11.03-13.39.36:778][264]LogBlueprintUserMessages: [BP_Bomb_C_26] no hit
+[2017.11.03-13.39.39:952][411]LogBlueprintUserMessages: [BP_Bomb_C_27] a
+[2017.11.03-13.39.39:953][411]LogBlueprintUserMessages: [BP_Bomb_C_27] bomb hit
+[2017.11.03-13.39.39:953][411]LogBlueprintUserMessages: [BP_Bomb_C_27] hit crate
+[2017.11.03-13.39.39:953][411]LogBlueprintUserMessages: [BP_Crate7] 0.885678
+[2017.11.03-13.39.39:954][411]LogBlueprintUserMessages: [BP_Crate7] 0.670705
+[2017.11.03-13.39.39:954][411]LogBlueprintUserMessages: [BP_Crate7] spawning multiple bomb upgrade
+[2017.11.03-13.39.39:956][411]LogBlueprintUserMessages: [BP_Bomb_C_27] b
+[2017.11.03-13.39.39:956][411]LogBlueprintUserMessages: [BP_Bomb_C_27] bomb hit
+[2017.11.03-13.39.39:956][411]LogBlueprintUserMessages: [BP_Bomb_C_27] hit crate
+[2017.11.03-13.39.39:956][411]LogBlueprintUserMessages: [BP_Crate5] 0.540605
+[2017.11.03-13.39.39:957][411]LogBlueprintUserMessages: [BP_Bomb_C_27] c
+[2017.11.03-13.39.39:957][411]LogBlueprintUserMessages: [BP_Bomb_C_27] no hit
+[2017.11.03-13.39.39:957][411]LogBlueprintUserMessages: [BP_Bomb_C_27] d
+[2017.11.03-13.39.39:957][411]LogBlueprintUserMessages: [BP_Bomb_C_27] bomb hit
+[2017.11.03-13.39.46:066][695]LogBlueprintUserMessages: [BP_Bomb_C_28] a
+[2017.11.03-13.39.46:067][695]LogBlueprintUserMessages: [BP_Bomb_C_28] bomb hit
+[2017.11.03-13.39.46:067][695]LogBlueprintUserMessages: [BP_Bomb_C_28] hit crate
+[2017.11.03-13.39.46:068][695]LogBlueprintUserMessages: [BP_Crate8] 0.834742
+[2017.11.03-13.39.46:068][695]LogBlueprintUserMessages: [BP_Bomb_C_28] b
+[2017.11.03-13.39.46:069][695]LogBlueprintUserMessages: [BP_Bomb_C_28] no hit
+[2017.11.03-13.39.46:069][695]LogBlueprintUserMessages: [BP_Bomb_C_28] c
+[2017.11.03-13.39.46:070][695]LogBlueprintUserMessages: [BP_Bomb_C_28] bomb hit
+[2017.11.03-13.39.46:070][695]LogBlueprintUserMessages: [BP_Bomb_C_28] d
+[2017.11.03-13.39.46:070][695]LogBlueprintUserMessages: [BP_Bomb_C_28] bomb hit
+[2017.11.03-13.39.50:550][903]LogNet: Browse: /Game/Bomberman/Maps/Game
+[2017.11.03-13.39.50:561][903]LogLoad: LoadMap: /Game/Bomberman/Maps/Game
+[2017.11.03-13.39.50:644][903]Cmd: MEM
+[2017.11.03-13.39.50:706][903]LogMemory: Platform Memory Stats for Windows
+[2017.11.03-13.39.50:706][903]LogMemory: Process Physical Memory: 1572.13 MB used, 1589.40 MB peak
+[2017.11.03-13.39.50:706][903]LogMemory: Process Virtual Memory: 2412.27 MB used, 2504.39 MB peak
+[2017.11.03-13.39.50:706][903]LogMemory: Physical Memory: 8049.14 MB used,  8232.50 MB free, 16281.64 MB total
+[2017.11.03-13.39.50:706][903]LogMemory: Virtual Memory: 3299.89 MB used,  8232.50 MB free, 134217728.00 MB total
+[2017.11.03-13.39.50:707][903]LogMemory: 
+[2017.11.03-13.39.50:707][903]Allocator Stats for TBB: (not implemented)
+[2017.11.03-13.39.51:368][903]LogAIModule: Creating AISystem for world Game
+[2017.11.03-13.39.51:369][903]LogLoad: Game class is 'BomberManGameMode_C'
+[2017.11.03-13.39.51:507][903]LogWorld: Bringing World /Game/Bomberman/Maps/UEDPIE_0_Game.Game up for play (max tick rate 60) at 2017.11.03-13.39.51
+[2017.11.03-13.39.51:510][903]LogWorld: Bringing up level for play took: 0.139933
+[2017.11.03-13.39.51:521][903]LogLoad: Took 0.960284 seconds to LoadMap(/Game/Bomberman/Maps/Game)
+[2017.11.03-13.39.59:142][213]LogBlueprintUserMessages: [BP_Bomb_C_0] a
+[2017.11.03-13.39.59:142][213]LogBlueprintUserMessages: [BP_Bomb_C_0] bomb hit
+[2017.11.03-13.39.59:143][213]LogBlueprintUserMessages: [BP_Bomb_C_0] b
+[2017.11.03-13.39.59:143][213]LogBlueprintUserMessages: [BP_Bomb_C_0] bomb hit
+[2017.11.03-13.39.59:143][213]LogBlueprintUserMessages: [BP_Bomb_C_0] c
+[2017.11.03-13.39.59:144][213]LogBlueprintUserMessages: [BP_Bomb_C_0] bomb hit
+[2017.11.03-13.39.59:144][213]LogBlueprintUserMessages: [BP_Bomb_C_0] hit crate
+[2017.11.03-13.39.59:144][213]LogBlueprintUserMessages: [BP_Crate15] 0.277535
+[2017.11.03-13.39.59:145][213]LogBlueprintUserMessages: [BP_Bomb_C_0] d
+[2017.11.03-13.39.59:145][213]LogBlueprintUserMessages: [BP_Bomb_C_0] no hit
+[2017.11.03-13.40.02:925][363]LogBlueprintUserMessages: [BP_Bomb_C_1] a
+[2017.11.03-13.40.02:926][363]LogBlueprintUserMessages: [BP_Bomb_C_1] no hit
+[2017.11.03-13.40.02:926][363]LogBlueprintUserMessages: [BP_Bomb_C_1] b
+[2017.11.03-13.40.02:926][363]LogBlueprintUserMessages: [BP_Bomb_C_1] bomb hit
+[2017.11.03-13.40.02:927][363]LogBlueprintUserMessages: [BP_Bomb_C_1] hit crate
+[2017.11.03-13.40.02:929][363]LogBlueprintUserMessages: [BP_Crate8] 0.930815
+[2017.11.03-13.40.02:929][363]LogBlueprintUserMessages: [BP_Crate8] 0.835322
+[2017.11.03-13.40.02:930][363]LogBlueprintUserMessages: [BP_Crate8] spawning speed pickup upgrade
+[2017.11.03-13.40.02:933][363]LogBlueprintUserMessages: [BP_Bomb_C_1] c
+[2017.11.03-13.40.02:934][363]LogBlueprintUserMessages: [BP_Bomb_C_1] bomb hit
+[2017.11.03-13.40.02:934][363]LogBlueprintUserMessages: [BP_Bomb_C_1] d
+[2017.11.03-13.40.02:934][363]LogBlueprintUserMessages: [BP_Bomb_C_1] bomb hit
+[2017.11.03-13.40.06:275][493]LogBlueprintUserMessages: [BP_Bomb_C_2] a
+[2017.11.03-13.40.06:275][493]LogBlueprintUserMessages: [BP_Bomb_C_2] bomb hit
+[2017.11.03-13.40.06:275][493]LogBlueprintUserMessages: [BP_Bomb_C_2] b
+[2017.11.03-13.40.06:275][493]LogBlueprintUserMessages: [BP_Bomb_C_2] bomb hit
+[2017.11.03-13.40.06:275][493]LogBlueprintUserMessages: [BP_Bomb_C_2] hit crate
+[2017.11.03-13.40.06:276][493]LogBlueprintUserMessages: [BP_Crate14] 0.69924
+[2017.11.03-13.40.06:277][493]LogBlueprintUserMessages: [BP_Bomb_C_2] c
+[2017.11.03-13.40.06:277][493]LogBlueprintUserMessages: [BP_Bomb_C_2] bomb hit
+[2017.11.03-13.40.06:278][493]LogBlueprintUserMessages: [BP_Bomb_C_2] hit crate
+[2017.11.03-13.40.06:278][493]LogBlueprintUserMessages: [BP_Crate23] 0.552568
+[2017.11.03-13.40.06:278][493]LogBlueprintUserMessages: [BP_Bomb_C_2] d
+[2017.11.03-13.40.06:279][493]LogBlueprintUserMessages: [BP_Bomb_C_2] no hit
+[2017.11.03-13.40.09:640][625]LogBlueprintUserMessages: [BP_Bomb_C_3] a
+[2017.11.03-13.40.09:641][625]LogBlueprintUserMessages: [BP_Bomb_C_3] no hit
+[2017.11.03-13.40.09:641][625]LogBlueprintUserMessages: [BP_Bomb_C_3] b
+[2017.11.03-13.40.09:641][625]LogBlueprintUserMessages: [BP_Bomb_C_3] bomb hit
+[2017.11.03-13.40.09:641][625]LogBlueprintUserMessages: [BP_Bomb_C_3] hit crate
+[2017.11.03-13.40.09:642][625]LogBlueprintUserMessages: [BP_Crate7] 0.157414
+[2017.11.03-13.40.09:642][625]LogBlueprintUserMessages: [BP_Bomb_C_3] c
+[2017.11.03-13.40.09:642][625]LogBlueprintUserMessages: [BP_Bomb_C_3] bomb hit
+[2017.11.03-13.40.09:642][625]LogBlueprintUserMessages: [BP_Bomb_C_3] hit crate
+[2017.11.03-13.40.09:643][625]LogBlueprintUserMessages: [BP_Crate13] 0.845882
+[2017.11.03-13.40.09:643][625]LogBlueprintUserMessages: [BP_Crate13] 0.316294
+[2017.11.03-13.40.09:644][625]LogBlueprintUserMessages: [BP_Crate13] spawning speed pickup upgrade
+[2017.11.03-13.40.09:647][625]LogBlueprintUserMessages: [BP_Bomb_C_3] d
+[2017.11.03-13.40.09:648][625]LogBlueprintUserMessages: [BP_Bomb_C_3] bomb hit
+[2017.11.03-13.40.16:839][920]LogBlueprintUserMessages: [BP_Bomb_C_4] a
+[2017.11.03-13.40.16:839][920]LogBlueprintUserMessages: [BP_Bomb_C_4] bomb hit
+[2017.11.03-13.40.16:841][920]LogBlueprintUserMessages: [BP_Bomb_C_4] b
+[2017.11.03-13.40.16:841][920]LogBlueprintUserMessages: [BP_Bomb_C_4] no hit
+[2017.11.03-13.40.16:842][920]LogBlueprintUserMessages: [BP_Bomb_C_4] c
+[2017.11.03-13.40.16:842][920]LogBlueprintUserMessages: [BP_Bomb_C_4] no hit
+[2017.11.03-13.40.16:843][920]LogBlueprintUserMessages: [BP_Bomb_C_4] d
+[2017.11.03-13.40.16:843][920]LogBlueprintUserMessages: [BP_Bomb_C_4] no hit
+[2017.11.03-13.40.22:024][129]LogBlueprintUserMessages: [BP_Bomb_C_5] a
+[2017.11.03-13.40.22:025][129]LogBlueprintUserMessages: [BP_Bomb_C_5] bomb hit
+[2017.11.03-13.40.22:026][129]LogBlueprintUserMessages: [BP_Bomb_C_5] b
+[2017.11.03-13.40.22:026][129]LogBlueprintUserMessages: [BP_Bomb_C_5] bomb hit
+[2017.11.03-13.40.22:027][129]LogBlueprintUserMessages: [BP_Bomb_C_5] c
+[2017.11.03-13.40.22:028][129]LogBlueprintUserMessages: [BP_Bomb_C_5] bomb hit
+[2017.11.03-13.40.22:028][129]LogBlueprintUserMessages: [BP_Bomb_C_5] hit crate
+[2017.11.03-13.40.22:028][129]LogBlueprintUserMessages: [BP_Crate29] 0.899899
+[2017.11.03-13.40.22:029][129]LogBlueprintUserMessages: [BP_Bomb_C_5] d
+[2017.11.03-13.40.22:029][129]LogBlueprintUserMessages: [BP_Bomb_C_5] no hit
+[2017.11.03-13.40.25:526][270]LogBlueprintUserMessages: [BP_Bomb_C_6] a
+[2017.11.03-13.40.25:526][270]LogBlueprintUserMessages: [BP_Bomb_C_6] no hit
+[2017.11.03-13.40.25:527][270]LogBlueprintUserMessages: [BP_Bomb_C_6] b
+[2017.11.03-13.40.25:528][270]LogBlueprintUserMessages: [BP_Bomb_C_6] bomb hit
+[2017.11.03-13.40.25:528][270]LogBlueprintUserMessages: [BP_Bomb_C_6] hit crate
+[2017.11.03-13.40.25:528][270]LogBlueprintUserMessages: [BP_Crate6] 0.718009
+[2017.11.03-13.40.25:529][270]LogBlueprintUserMessages: [BP_Bomb_C_6] c
+[2017.11.03-13.40.25:529][270]LogBlueprintUserMessages: [BP_Bomb_C_6] bomb hit
+[2017.11.03-13.40.25:529][270]LogBlueprintUserMessages: [BP_Bomb_C_6] d
+[2017.11.03-13.40.25:529][270]LogBlueprintUserMessages: [BP_Bomb_C_6] bomb hit
+[2017.11.03-13.40.28:998][412]LogBlueprintUserMessages: [BP_Bomb_C_7] a
+[2017.11.03-13.40.28:999][412]LogBlueprintUserMessages: [BP_Bomb_C_7] bomb hit
+[2017.11.03-13.40.28:999][412]LogBlueprintUserMessages: [BP_Bomb_C_7] b
+[2017.11.03-13.40.29:000][412]LogBlueprintUserMessages: [BP_Bomb_C_7] bomb hit
+[2017.11.03-13.40.29:000][412]LogBlueprintUserMessages: [BP_Bomb_C_7] hit crate
+[2017.11.03-13.40.29:001][412]LogBlueprintUserMessages: [BP_Crate71_7284] 0.118656
+[2017.11.03-13.40.29:001][412]LogBlueprintUserMessages: [BP_Bomb_C_7] c
+[2017.11.03-13.40.29:002][412]LogBlueprintUserMessages: [BP_Bomb_C_7] bomb hit
+[2017.11.03-13.40.29:002][412]LogBlueprintUserMessages: [BP_Bomb_C_7] hit crate
+[2017.11.03-13.40.29:003][412]LogBlueprintUserMessages: [BP_Crate30] 0.797357
+[2017.11.03-13.40.29:003][412]LogBlueprintUserMessages: [BP_Crate30] 0.744804
+[2017.11.03-13.40.29:003][412]LogBlueprintUserMessages: [BP_Crate30] spawning bomb radius upgrade
+[2017.11.03-13.40.29:007][412]LogBlueprintUserMessages: [BP_Bomb_C_7] d
+[2017.11.03-13.40.29:008][412]LogBlueprintUserMessages: [BP_Bomb_C_7] no hit
+[2017.11.03-13.40.30:394][471]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Bomberman/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu'
+[2017.11.03-13.40.30:472][471]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Bomberman/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Bomberman/Maps/Menu.Menu:PersistentLevel.Menu'

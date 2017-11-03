@@ -1,0 +1,7 @@
+﻿  Performing 2 actions (2 in parallel)
+  [1/2] Link UE4Editor-Bomberman.dll
+  [2/2] Link UE4Editor-Bomberman.lib
+     Creating library C:\GameDev\GitHub\BombermanUE4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman.lib and object C:\GameDev\GitHub\BombermanUE4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman.exp
+     Creating library C:\GameDev\GitHub\BombermanUE4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman.suppressed.lib and object C:\GameDev\GitHub\BombermanUE4\Bomberman\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bomberman.suppressed.exp
+  Deploying BombermanEditor Win64 Development...
+  Total build time: 4.21 seconds (Local executor: 1.96 seconds)
